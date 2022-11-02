@@ -3,17 +3,18 @@ import { PropTypes } from 'prop-types';
 
 class Button extends PureComponent {
   render() {
-    const { text } = this.props;
+    const { text, onClick } = this.props;
     return (
-      <div className="button-cont flex">
-        <p>{text}</p>
-      </div>
+      <button type="button" className="button-cont" onClick={onClick}>
+        {text}
+      </button>
     );
   }
 }
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Button;
