@@ -1,16 +1,11 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import { PropTypes } from 'prop-types';
 
-class Button extends PureComponent {
-  render() {
-    const { text, onClick } = this.props;
-    return (
-      <button type="button" className="button-cont" onClick={onClick}>
-        {text}
-      </button>
-    );
-  }
-}
+const Button = ({ text, onClick }) => (
+  <button type="button" className="button-cont" onClick={onClick}>
+    {text}
+  </button>
+);
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
