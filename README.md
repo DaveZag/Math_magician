@@ -16,7 +16,7 @@
 
 ## Live Demo (if available)
 
-[**See Project 🚀**](https://github.com/DaveZag/Math_magician)
+[**See Project 🚀**](https://github.com/DaveZag/math-magician)
 
 ## Screenshot
 
@@ -42,7 +42,7 @@ Clone and access the repository using the following commands on Git Bash:
 
 ```
  cd PATH
- git clone https://github.com/DaveZag/Math_magician.git
+ git clone https://github.com/DaveZag/math-magician.git
  cd Math_magician
 ```
 
@@ -61,7 +61,7 @@ npm start
 
 ## Repo Links
 
-- Repository: [Math magician](https://github.com/DaveZag/Math_magician)
+- Repository: [Math magician](https://github.com/DaveZag/math-magician)
 
 ## Author
 

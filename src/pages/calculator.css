@@ -1,6 +1,16 @@
+.calculator-section header {
+  margin-top: 2rem;
+}
+
+.calculator {
+  width: 100%;
+  height: inherit;
+}
+
 .calc-container {
   background-color: rgb(224, 224, 224);
   width: 40%;
+  height: fit-content;
 }
 
 .output {
