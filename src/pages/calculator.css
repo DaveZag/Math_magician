@@ -10,7 +10,7 @@
 .calc-container {
   background-color: rgb(224, 224, 224);
   width: 40%;
-  height: fit-content;
+  height: auto;
 }
 
 .output {
