@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Header from './components/Header';
 import Quotes from './pages/Quotes';
 import NotFound from './pages/NotFound';
+import Footer from './components/Footer';
 import './App.css';
 
 const App = () => (
@@ -16,6 +17,8 @@ const App = () => (
       <Route path="/quotes" element={<Quotes />} />
       <Route path="/*" element={<NotFound />} />
     </Routes>
+
+    <Footer />
   </>
 );
 

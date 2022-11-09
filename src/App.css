@@ -54,7 +54,7 @@ button {
 
 section {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 120px);
   padding: 0 5%;
 }
 
@@ -111,7 +111,7 @@ section {
 
 .quote-container {
   margin-top: -2rem;
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(246, 244, 244);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 4rem;
@@ -152,4 +152,12 @@ section {
 
 .error h1 {
   font-size: 5rem;
+}
+
+.footer {
+  padding: 0.5rem 0;
+}
+
+.footer a:hover {
+  color: #f5913e;
 }
