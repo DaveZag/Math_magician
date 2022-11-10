@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import Button from './Button';
+import Button from '../components/Button';
 import './calculator.css';
 import calculate from '../logic/calculate';
 
@@ -46,15 +46,27 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calc-container">
-      <input className="output" value={checkValues()} disabled />
+    <section className="calculator-section flex flex-col">
+      <header>
+        <h2 className="welcome-txt">Let&apos;s do some math!</h2>
+      </header>
 
-      <div className="grid">
-        {signArray.map((sign) => (
-          <Button key={`unique-${sign}`} text={sign} onClick={handleClick} />
-        ))}
+      <div className="calculator flex jc-c ai-c">
+        <div className="calc-container">
+          <input className="output" value={checkValues()} disabled />
+
+          <div className="grid">
+            {signArray.map((sign) => (
+              <Button
+                key={`unique-${sign}`}
+                text={sign}
+                onClick={handleClick}
+              />
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
