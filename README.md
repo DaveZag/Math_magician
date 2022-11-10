@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math magician
+# Math Magician
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 >
@@ -11,7 +11,7 @@
 
 - HTML, CSS and JavaScript.
 - React.js.
-- Node.js (npm) & Webpack.
+- Node.js (npm).
 - Jest(for testing).
 
 ## Live Demo (if available)
@@ -22,7 +22,7 @@
 
 ### Desktop
 
-![Preview](./preview/preview-desk.png)
+![Preview](./preview/preview.png)
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ Clone and access the repository using the following commands on Git Bash:
 ```
  cd PATH
  git clone https://github.com/DaveZag/math-magician.git
- cd Math_magician
+ cd math-magician
 ```
 
 Open the directory in visual studio code by typing the following command in Git Bash:
@@ -67,7 +67,7 @@ npm start
 
 👤 **Dave ZAGABE**
 
-## Socials
+### Socials :
 
 - GitHub: [@Dave Zag](https://github.com/DaveZag)
 - Twitter: [@Dave Zagabe](https://twitter.com/davezagabe2)
