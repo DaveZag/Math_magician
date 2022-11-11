@@ -9,7 +9,7 @@ describe('Should have the text math magicians and the correct number of links', 
     render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
     const linkElement = screen.getByRole('link', { name: 'Math Magicians' });
     expect(linkElement).toBeInTheDocument();
@@ -19,7 +19,7 @@ describe('Should have the text math magicians and the correct number of links', 
     render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
     const linksArray = screen.getAllByRole('link');
     expect(linksArray).toHaveLength(4);
@@ -29,7 +29,7 @@ describe('Should have the text math magicians and the correct number of links', 
     const domElement = render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
 
     expect(domElement).toMatchSnapshot();
