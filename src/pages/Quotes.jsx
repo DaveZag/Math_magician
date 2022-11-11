@@ -6,14 +6,11 @@ const Quotes = () => {
   const handleClick = () => {
     // get random item index
     const randomIndex = Math.floor(Math.random() * quotes.length);
-    console.log(randomIndex);
 
     // get random item
     const randomElement = quotes[randomIndex];
     setQuote((prevState) => {
       let newState;
-      console.log('previous state: ', prevState.id);
-      console.log('Incomming element', randomElement.id);
       if (prevState !== randomElement) {
         newState = randomElement;
         return newState;
@@ -24,8 +21,8 @@ const Quotes = () => {
 
   return (
     <section className="quote-section flex jc-c ai-c">
-      <div className="quote-container">
-        <p className="quote">
+      <div className="quote-container" data-testid="quote container">
+        <p className="quote" data-testid="quote">
           &quot;
           {quote.text}
           &quot;

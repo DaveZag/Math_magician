@@ -68,7 +68,7 @@ section {
   font-size: 1.1rem;
 }
 
-.nav-link:hover {
+.nav-link:hover, .logo:hover {
   color: #f5913e;
 }
 
@@ -156,6 +156,7 @@ section {
 
 .footer {
   padding: 0.5rem 0;
+  color: rgb(215, 213, 213)
 }
 
 .footer a:hover {
