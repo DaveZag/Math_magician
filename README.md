@@ -16,7 +16,7 @@
 
 ## Live Demo (if available)
 
-[**See Project 🚀**](https://github.com/DaveZag/math-magician)
+[**See Project 🚀**](https://math-magician2.netlify.app/)
 
 ## Screenshot
 
