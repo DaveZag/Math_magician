@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magician
+# Math Magicians
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 >
@@ -16,7 +16,7 @@
 
 ## Live Demo (if available)
 
-[**See Project 🚀**](https://github.com/DaveZag/math-magician)
+[**See Project 🚀**](https://math-magician2.netlify.app/)
 
 ## Screenshot
 
