@@ -4,18 +4,13 @@ import quotes from '../components/Random_quotes';
 const Quotes = () => {
   const [quote, setQuote] = useState(quotes[quotes.length - 1]);
   const handleClick = () => {
-    // get random item index
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-
-    // get random item
-    const randomElement = quotes[randomIndex];
     setQuote((prevState) => {
-      let newState;
-      if (prevState !== randomElement) {
-        newState = randomElement;
+      let newState = quotes[0];
+      if (prevState.id !== quotes.length) {
+        newState = quotes[prevState.id];
         return newState;
       }
-      return quotes[randomIndex - 1];
+      return newState;
     });
   };
 

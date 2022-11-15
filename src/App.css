@@ -69,7 +69,8 @@ section {
 }
 
 .nav-link:hover,
-.logo:hover {
+.logo:hover,
+.active {
   color: #f5913e;
 }
 
